@@ -1,5 +1,5 @@
 import "./App.css";
-import { TwitterFollowCard } from "./TwitterFollowCard.jsx";
+import { TwitterFollowCard } from "./components/TwitterFollowCard.jsx";
 
 const users = [
   {
