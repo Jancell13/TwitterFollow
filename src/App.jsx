@@ -1,23 +1,23 @@
-import "./App.css";
-import { TwitterFollowCard } from "./components/TwitterFollowCard.jsx";
+import './App.css'
+import { TwitterFollowCard } from './components/TwitterFollowCard.jsx'
 
 const users = [
   {
-    userName: "jancell13",
-    name: "Jancell13",
+    userName: 'jancell13',
+    name: 'Jancell13',
     isFollowing: true,
   },
   {
-    userName: "midudev",
-    name: "Miguel Ángel Durán",
+    userName: 'midudev',
+    name: 'Miguel Ángel Durán',
     isFollowing: true,
   },
   {
-    userName: "reddit",
-    name: "Reddit",
+    userName: 'reddit',
+    name: 'Reddit',
     isFollowing: false,
   },
-];
+]
 
 export function App() {
   return (
@@ -34,5 +34,5 @@ export function App() {
         </TwitterFollowCard>
       ))}
     </section>
-  );
+  )
 }
